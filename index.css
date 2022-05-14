@@ -1,0 +1,95 @@
+body {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, p, ul, li {
+    font-family: sans-serif;
+}
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+ul.header {
+    background-color: dimgrey;
+    padding: 0;
+}
+ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+ul.header li a:hover {
+    background-color: darkred;
+}
+
+.content {
+    background-color: indianred;
+    color: #FFF;
+    padding: 20px;
+}
+.content h2 {
+    padding: 0;
+    margin: 0;
+}
+.content li {
+    margin-bottom: 10px;
+}
+
+.active {
+    background-color: indianred;
+}
+
+.rodape {
+    border: indianred solid 1px;
+    background-color: dimgrey;
+    font-family: "Courier New", monospace;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    color: blue;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: white;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+.relogio {
+    display: inline-block;
+    float: right;
+    margin-top: -10px;
+    padding-left: 10px;
+    position: sticky;
+    text-align: center;
+    width: 120px;
+}
+
+.relogio .botaoColorido {
+    width: 120px;
+}
+
+.relogio h3 {
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    position: sticky;
+}
