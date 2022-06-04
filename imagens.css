@@ -1,0 +1,27 @@
+.imagens {
+    background-color: white;
+    border-radius: 35px;
+    margin: 0 auto;
+    text-align: center;
+    height: 350px;
+    width: 350px;
+}
+
+.imagens img {
+    height: 300px;
+    width: 300px;
+}
+
+.botaoColorido {
+    background-color: darkred;
+    border: none;
+    color: white;
+    font-family: "Berlin Sans FB", sans-serif;
+    font-size: 16px;
+    padding: 5px 20px 5px 20px;
+    text-transform: uppercase;
+}
+
+.botaoColorido:active {
+    border: 1px solid black;
+}
